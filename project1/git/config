@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "hw1"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_homework_2024/oohomework_2024_22373333_hw_1.git
+	fetch = +refs/heads/*:refs/remotes/hw1/*
+[branch "main"]
+	remote = hw1
+	merge = refs/heads/main
+[remote "hw2"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_homework_2024/oohomework_2024_22373333_hw_2.git
+	fetch = +refs/heads/*:refs/remotes/hw2/*
+[remote "hw3"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_homework_2024/oohomework_2024_22373333_hw_3.git
+	fetch = +refs/heads/*:refs/remotes/hw3/*
